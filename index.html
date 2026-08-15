@@ -110,7 +110,7 @@ const SHOTS={
 };
 const PLACEHOLDERS=['Hero / onboarding','Life OS','Topic Cloud','Practice / voice','Community','Progress'];
 
-const V='?v=2';  // bump to bust browser cache when screenshots change
+const V='?v=3';  // bump to bust browser cache when screenshots change
 function card(n,src,t,d){
   return `<div class="card" onclick="zoom('${src}${V}')">
     <div class="shot"><img loading="lazy" src="${src}${V}" alt="${t}"/></div>
